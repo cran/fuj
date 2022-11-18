@@ -8,6 +8,8 @@
 [![R-CMD-check](https://github.com/jmbarbone/fuj/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/jmbarbone/fuj/actions/workflows/R-CMD-check.yaml)
 [![Codecov test
 coverage](https://codecov.io/gh/jmbarbone/fuj/branch/main/graph/badge.svg)](https://app.codecov.io/gh/jmbarbone/fuj?branch=main)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/fuj)](https://CRAN.R-project.org/package=fuj)
 <!-- badges: end -->
 
 The goal of `{fuj}` is to provide low level tools for other packages by
@@ -15,13 +17,17 @@ The goal of `{fuj}` is to provide low level tools for other packages by
 
 ## Installation
 
-You can install the development version of `{fuj}`
-[GitHub](https://github.com/) with:
+Install `{fuj}` from CRAN with:
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("jmbarbone/fuj")
+install.packages("vctrs")
 ```
+
+Alternatively, you can install the development version of `{fuj}`
+[GitHub](https://github.com/) with:
+
+    # install.packages("devtools")
+    devtools::install_github("jmbarbone/fuj")
 
 ## Example
 

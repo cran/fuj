@@ -1,7 +1,7 @@
 Package: fuj
 Type: Package
 Title: Functions and Utilities for Jordan
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: 
     person(
       given = "Jordan Mark", 
@@ -22,8 +22,8 @@ Suggests: covr, spelling, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 URL: https://jmbarbone.github.io/fuj/
 NeedsCompilation: no
-Packaged: 2022-11-01 04:11:09 UTC; jordan
+Packaged: 2022-11-18 14:37:44 UTC; jordan
 Author: Jordan Mark Barbone [aut, cph, cre]
     (<https://orcid.org/0000-0001-9788-3628>)
 Repository: CRAN
-Date/Publication: 2022-11-01 14:40:15 UTC
+Date/Publication: 2022-11-18 14:50:10 UTC
