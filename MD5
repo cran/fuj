@@ -1,7 +1,7 @@
-d2e95e65e91e9048482c8654120b36bd *DESCRIPTION
+a21b3a5ef313c67bd9228485e2dcf445 *DESCRIPTION
 deef570157fcf159ff81cb52b2b9bdf2 *LICENSE
 18163f312f97f88ddee1f526c2edb591 *NAMESPACE
-98d2c019982240a53ea6ab3a6b641bc4 *NEWS.md
+8b86175e7ea5925433362a692b75621b *NEWS.md
 822e5b8eefb711292707b08da7f09e49 *R/arithmetic.R
 9d54f78da409db796ff21017b1e8b6e5 *R/attributes.R
 52023a6d8c1b5974d4b62a3f7a0ca492 *R/colons.R
@@ -10,7 +10,7 @@ deef570157fcf159ff81cb52b2b9bdf2 *LICENSE
 a7f4ebcd7c0abb9cb9babf65b7d8ee0b *R/extract.R
 bf6b30612f95211f9bf6fbbfcc62bdb1 *R/flip.R
 5bab0be118cf127d091c8ac3337c3114 *R/if-null.R
-17ae8998467fc6dade8794e0b02181b6 *R/list.R
+dd366aa86e7ee9be9190724490afacda *R/list.R
 ed11e32354ea556d614be58945e22c25 *R/match.R
 8bd407f794caca5304fce99eca33a9f1 *R/muffle.R
 f6514312a42fdb0dda452475db378627 *R/names.R
@@ -28,7 +28,7 @@ ced49401089d73132cd2fc6b363ab456 *man/figures/logo.png
 3278cab65d9301e8ba0aaac36809e8f5 *man/flip.Rd
 368107ace74675c923e7271a134167dc *man/grapes-colons-grapes.Rd
 c266444e972fe861d84eba934e955685 *man/if_null.Rd
-470d97b9626454ca39daa79bf814268e *man/list0.Rd
+2fdb15260d029889eb691c07fb4e2377 *man/list0.Rd
 10c164cb3fd052b936c7fefabe3497e3 *man/match_ext.Rd
 fda63e19020598889d1fa87ba94b8bfa *man/muffle.Rd
 a16881b1375cea9133298496e2eb7a4e *man/names.Rd
@@ -47,7 +47,7 @@ fab154f712ba1ae19a763c6da4bc9623 *tests/testthat/test-arithmetic.R
 f155d9bb44d2fecc63440fdcc0dceaaf *tests/testthat/test-extract.R
 b9231a060bedc1c5a856bffe46867216 *tests/testthat/test-flip.R
 81ff2a27879ddc34276756af81a4836d *tests/testthat/test-if-null.R
-400f2ca0415581bb58aab26afe462a8b *tests/testthat/test-list.R
+8ae06df14e53404ba1062bd26f34d0a5 *tests/testthat/test-list.R
 8ead91f872b7b00edc25f33a9f5561c6 *tests/testthat/test-match.R
 fe8da302b84aa7cf8ade39378a7afe33 *tests/testthat/test-muffle.R
 10ad34dd5c08c52df353c5ee3e086b48 *tests/testthat/test-names.R
