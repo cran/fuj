@@ -1,3 +1,44 @@
+# fuj 0.2.0
+
+## Fixes
+
+* `%wi%` no longer drops duplicated in `x` [#44](https://github.com/jmbarbone/fuj/issues/44)
+* `list0()` now works better with some edge cases [#55](https://github.com/jmbarbone/fuj/issues/55)
+
+## New features
+
+* `fp()` added for creating file path objects with `is_path()` as a means of checking for the class; `file_path()` and `is_file_path()` exported as aliases, respectively [#55](https://github.com/jmbarbone/fuj/issues/55)
+* `include()` added as a means of partially attaching a package with specific exports [#49](https://github.com/jmbarbone/fuj/issues/49)
+* `op.fuj`, a named list of default options for `{fuj}` is now exported
+* multiple improvements for `verbose()` [#50](https://github.com/jmbarbone/fuj/pull/50)
+  * `verbose()` has additional options for controlling the message output [#36](https://github.com/jmbarbone/fuj/issues/36)
+    * `.label` can be set to a string to prepend to the message (defaults to `"[verbose]"`)
+    * `.fill` can be set to repeat `.label` on each line of the message (defaults to `FALSE`)
+    * `.verbose` can be set to `TRUE` to print the message rather than relying on `options()`
+  * `verbose()` prints prepended with `"verbose "` instead of `"[verbose] "` [#42](https://github.com/jmbarbone/fuj/issues/42)
+  * `make_verbose()` is included to create a verbose function that will be triggered with a configured option, rather than the default `getOption("fuj.verbose", getOption("verbose"))` pattern.
+This can be used to define your own custom verbose function:
+* `lst()` exported as an alias for `list0()`
+
+```r
+library(fuj)
+options(fuj.verbose = FALSE)
+verbose("will not show")
+
+options(my.verbose = TRUE)
+my_verbose <- make_verbose("my.verbose")
+my_verbose("will show")
+#> [verbose] will show
+```
+
+## Internals
+
+* `%||%` is now copied from `{base}` when available (**R** versions >= 4.4) [#35](https://github.com/jmbarbone/fuj/issues/35)
+* additional local testing for os version
+* `{covr}` dropped as a `suggest` dependency
+* `require_namespace()` now allows for version requirements (e.g., `require_namespace("fuj>=0.1.4")`).  When the version requirement is not met, an error of class `namespaceVersionError` is returned [#41](https://github.com/jmbarbone/fuj/issues/41)
+* `simpleError`s converted to custom errors [#43](https://github.com/jmbarbone/fuj/issues/43)
+
 # fuj 0.1.4
 
 * adds `%::%` and `%:::%` (which now aliases `%colons$`) or retrieving exported and non-exported values from namespaces [#31](https://github.com/jmbarbone/fuj/issues/31)
