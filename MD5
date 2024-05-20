@@ -1,7 +1,7 @@
-b062daf010e066c3266e9fe8cae0d558 *DESCRIPTION
+ab6948b6eac00e53c04931bed2090cb2 *DESCRIPTION
 deef570157fcf159ff81cb52b2b9bdf2 *LICENSE
 4fa9e7423816a1ac000aed6f396b1f1b *NAMESPACE
-55db3a8d8f792e8aa064107df348e7d0 *NEWS.md
+26fcbb1c3c82260a401c95c8fa1aa88d *NEWS.md
 822e5b8eefb711292707b08da7f09e49 *R/arithmetic.R
 9d54f78da409db796ff21017b1e8b6e5 *R/attributes.R
 76f91dceb57ac94f3c5a3432a7f54639 *R/colons.R
@@ -13,7 +13,7 @@ b0cc097596a8ce5bfe31cbbfa18b89e2 *R/fs.R
 e2dd8e5b40a2ddb1737d3031e4d3b44e *R/fuj-package.R
 c46dd4a96f626ad9bfcbfbc00b7f89e1 *R/if-null.R
 a4baca93fc61be91f4451f32336a5113 *R/include.R
-b14d58aa070c3b70e96e198294bbb5ef *R/list.R
+19fbcd09f639e38211b101ef138cf138 *R/list.R
 40f730eb86c9bc6ed97e7e798d369b5e *R/match.R
 8bd407f794caca5304fce99eca33a9f1 *R/muffle.R
 f6514312a42fdb0dda452475db378627 *R/names.R
@@ -62,7 +62,7 @@ b9231a060bedc1c5a856bffe46867216 *tests/testthat/test-flip.R
 29e71d5a92bc8ac5673838c56a730a50 *tests/testthat/test-fs.R
 81ff2a27879ddc34276756af81a4836d *tests/testthat/test-if-null.R
 8f05f62eaf8a61da7a7aac52e032ec6c *tests/testthat/test-include.R
-8ae06df14e53404ba1062bd26f34d0a5 *tests/testthat/test-list.R
+7fbf5e6c23047851a6ad87cafcec532a *tests/testthat/test-list.R
 e85d7e2837d919dc73cb46acd54ff39f *tests/testthat/test-match.R
 fe8da302b84aa7cf8ade39378a7afe33 *tests/testthat/test-muffle.R
 10ad34dd5c08c52df353c5ee3e086b48 *tests/testthat/test-names.R
